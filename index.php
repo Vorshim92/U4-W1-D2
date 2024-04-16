@@ -2,8 +2,6 @@
 
 <?php 
 
-//echo '<pre>' . print_r($_POST, true) . '</pre>';
-
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $name=$_POST["username"];
     $email=$_POST["email"];
